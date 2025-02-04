@@ -12,7 +12,7 @@ const quoteDisplay = document.getElementById("quoteDisplay");
             return;
         }
        const randomIndex = Math.floor(Math.random() * quotes.length);
-        quoteDisplay.textContent = `"${quotes[randomIndex].text}" - ${quotes[randomIndex].category}`;
+        quoteDisplay.textContent = quotes[randomIndex];
     }
   
 });
